@@ -19,7 +19,7 @@ On my 1080ti, 100 epochs took about 4.5 hours.
 
 ![good precision, poor recall](images/example.gif)
 
-As you can see it has decent recall (it can usually track the hand), but poor precision (lots of things on my shelf are picked up as hands).
+As you can see it has decent recall (it can usually track the hand), but poor precision (lots of vaugely flesh colored things are detected as hands).
 
 This is a clear example of overfitting. The model shown in the gif above was the epoch with the best F1 score.
 
